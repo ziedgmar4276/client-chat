@@ -21,7 +21,10 @@ export default function SignIn() {
           <button className={'button mt-20'} type="submit">Sign In</button>
         </Link>
       </div>
+      
       <img  id="acceuil"src={acceuil} alt="svg" />
+    
+    
 
     </div>
   );
