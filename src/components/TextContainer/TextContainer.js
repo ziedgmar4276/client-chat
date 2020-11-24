@@ -8,14 +8,14 @@ const TextContainer = ({ users }) => (
   <div className="textContainer">
     <div>
     
-      <h2>connecte avec votre class <span role="img" aria-label="emoji">💬</span></h2>
+      <h2>connecte avec votre Group<span role="img" aria-label="emoji">💬</span></h2>
       <img  id="svg"src={chatMessage} alt="svg" />
     </div>
     {
       users
         ? (
           <div>
-            <h1>People currently chatting:</h1>
+            <h1>Personnes discutant actuellement:</h1>
             <div className="activeContainer">
               <h2>
                 {users.map(({name}) => (
